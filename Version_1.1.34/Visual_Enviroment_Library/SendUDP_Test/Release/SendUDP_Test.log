@@ -1,0 +1,7 @@
+﻿  Generating code
+  0 of 187 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    19 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  SendUDP_Test.vcxproj -> C:\Users\Peter\Documents\phd\coding_work\VC\Visual_Enviroment_Library\Release\SendUDP_Test.exe
+  SendUDP_Test.vcxproj -> C:\Users\Peter\Documents\phd\coding_work\VC\Visual_Enviroment_Library\Release\SendUDP_Test.pdb (Full PDB)

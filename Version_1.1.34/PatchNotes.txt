@@ -1,0 +1,19 @@
+Version:
+
+1.1.3:
+
+EMG Game: 
+Fixed issue with score going greater than 100
+Improved timing of game
+Code cleanup for update function
+Final score now presented as a float 
+Removed Haibin 
+
+Demonstration hand: 
+Added milliseconds per update to debug list. 
+
+
+1.1.31: 
+
+Emg Game: 
+Fixed pause menu bug.

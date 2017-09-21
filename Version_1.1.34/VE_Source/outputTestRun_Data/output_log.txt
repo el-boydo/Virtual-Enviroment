@@ -1,0 +1,61 @@
+Initialize engine version: 5.4.1f1 (649f48bbbf0f)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 960M (ID=0x139b)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Peter\Documents\phd\coding_work\unity\Learning\projects\Leap_motionScriptTest\outputTestRun_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Peter\Documents\phd\coding_work\unity\Learning\projects\Leap_motionScriptTest\outputTestRun_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Peter\Documents\phd\coding_work\unity\Learning\projects\Leap_motionScriptTest\outputTestRun_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Peter\Documents\phd\coding_work\unity\Learning\projects\Leap_motionScriptTest\outputTestRun_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Peter\Documents\phd\coding_work\unity\Learning\projects\Leap_motionScriptTest\outputTestRun_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Peter\Documents\phd\coding_work\unity\Learning\projects\Leap_motionScriptTest\outputTestRun_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Peter\Documents\phd\coding_work\unity\Learning\projects\Leap_motionScriptTest\outputTestRun_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Peter\Documents\phd\coding_work\unity\Learning\projects\Leap_motionScriptTest\outputTestRun_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Peter\Documents\phd\coding_work\unity\Learning\projects\Leap_motionScriptTest\outputTestRun_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Peter\Documents\phd\coding_work\unity\Learning\projects\Leap_motionScriptTest\outputTestRun_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\Peter\Documents\phd\coding_work\unity\Learning\projects\Leap_motionScriptTest\outputTestRun_Data\Managed\LeapCSharp.NET3.5.dll (this message is harmless)
+Loading C:\Users\Peter\Documents\phd\coding_work\unity\Learning\projects\Leap_motionScriptTest\outputTestRun_Data\Managed\LeapCSharp.NET3.5.dll into Unity Child Domain
+- Completed reload, in  0.183 seconds
+Platform assembly: C:\Users\Peter\Documents\phd\coding_work\unity\Learning\projects\Leap_motionScriptTest\outputTestRun_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Peter\Documents\phd\coding_work\unity\Learning\projects\Leap_motionScriptTest\outputTestRun_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.825679 ms
+UDPSend.init()
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Sending to 127.0.0.1 : 8888
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Test-Sending to this Port: nc -u 127.0.0.1  8888
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Fallback handler could not load library C:/Users/Peter/Documents/phd/coding_work/unity/Learning/projects/Leap_motionScriptTest/outputTestRun_Data/Mono/EMG_Read
+Fallback handler could not load library C:/Users/Peter/Documents/phd/coding_work/unity/Learning/projects/Leap_motionScriptTest/outputTestRun_Data/Mono/.\EMG_Read
+Fallback handler could not load library C:/Users/Peter/Documents/phd/coding_work/unity/Learning/projects/Leap_motionScriptTest/outputTestRun_Data/Mono/EMG_Read
+Fallback handler could not load library C:/Users/Peter/Documents/phd/coding_work/unity/Learning/projects/Leap_motionScriptTest/outputTestRun_Data/Mono/libEMG_Read
+Fallback handler could not load library C:/Users/Peter/Documents/phd/coding_work/unity/Learning/projects/Leap_motionScriptTest/outputTestRun_Data/Mono/.\libEMG_Read
+Fallback handler could not load library C:/Users/Peter/Documents/phd/coding_work/unity/Learning/projects/Leap_motionScriptTest/outputTestRun_Data/Mono/libEMG_Read
+Fallback handler could not load library C:/Users/Peter/Documents/phd/coding_work/unity/Learning/projects/Leap_motionScriptTest/outputTestRun_Data/Mono/EMG_Read
+Fallback handler could not load library C:/Users/Peter/Documents/phd/coding_work/unity/Learning/projects/Leap_motionScriptTest/outputTestRun_Data/Mono/.\EMG_Read
+Fallback handler could not load library C:/Users/Peter/Documents/phd/coding_work/unity/Learning/projects/Leap_motionScriptTest/outputTestRun_Data/Mono/EMG_Read
+Fallback handler could not load library C:/Users/Peter/Documents/phd/coding_work/unity/Learning/projects/Leap_motionScriptTest/outputTestRun_Data/Mono/libEMG_Read
+Fallback handler could not load library C:/Users/Peter/Documents/phd/coding_work/unity/Learning/projects/Leap_motionScriptTest/outputTestRun_Data/Mono/.\libEMG_Read
+Fallback handler could not load library C:/Users/Peter/Documents/phd/coding_work/unity/Learning/projects/Leap_motionScriptTest/outputTestRun_Data/Mono/libEMG_Read
+Fallback handler could not load library C:/Users/Peter/Documents/phd/coding_work/unity/Learning/projects/Leap_motionScriptTest/outputTestRun_Data/Mono/EMG_Read
+Fallback handler could not load library C:/Users/Peter/Documents/phd/coding_work/unity/Learning/projects/Leap_motionScriptTest/outputTestRun_Data/Mono/.\EMG_Read
+Fallback handler could not load library C:/Users/Peter/Documents/phd/coding_work/unity/Learning/projects/Leap_motionScriptTest/outputTestRun_Data/Mono/EMG_Read
+Fallback handler could not load library C:/Users/Peter/Documents/phd/coding_work/unity/Learning/projects/Leap_motionScriptTest/outputTestRun_Data/Mono/libEMG_Read
+Fallback handler could not load library C:/Users/Peter/Documents/phd/coding_work/unity/Learning/projects/Leap_motionScriptTest/outputTestRun_Data/Mono/.\libEMG_Read
+Fallback handler could not load library C:/Users/Peter/Documents/phd/coding_work/unity/Learning/projects/Leap_motionScriptTest/outputTestRun_Data/Mono/libEMG_Read
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 5018 -> priority: 1 
+  Thread -> id: 3a90 -> priority: 1 
