@@ -156,7 +156,7 @@ Presently working gestures are listed in the Commands section.
 
 ```
 static char* VE_Comms::SendUDP(const char* input,bool getJointPositions = false);
-
+```
 
 Sends a UDP Command to the server , largely used by other functions but can be used directly although it is advised to use the provided functions. 
 
