@@ -1,9 +1,9 @@
 # Virtual-Enviroment
  Readme
 
-##Instructions: 
+## Instructions: 
 
-###Installation:
+### Installation:
 
 
 All C++ was made in Visual studio 2015, yet can be compiled with most other versions of visual Studio. 
@@ -20,7 +20,7 @@ Included is the console application (SendUDPTest) which can be used for easy tes
 
 
 
-###Usage:
+### Usage:
 
 Open the Unity project (preferebly in windowed mode) , commands may not always be recognised until the unity window regains focus
 
@@ -33,12 +33,12 @@ Library returns a "1" on succesful messege sending, or a list of current joint p
 All positons are presently held until a new message is sent. 
 
 
-###Commands:
+### Commands:
 
 All gesture commands are preceeded by "Gesture_" Followed by the gesture number / code
 
 
-Direct Gestures:
+**Direct Gestures:**
 Gestures 1 - Hand at Rest 
 Gestures 3 - Closed hand 
 Gestures 4 - Flexion 
@@ -48,7 +48,7 @@ Gestures 7 - Supination
 Gestures 8 - Fine Pinch
 
 
-Unique Gestures: 
+**Unique Gestures:** 
 
 All fingers on the hand may be controlled by sending the following format: 
 
@@ -59,16 +59,21 @@ Where each X corresponds a finger on the hand starting with the thumb, and movin
 Substituting the X for a 1 will bend the finger, and a 0 will return the finger to its resting position. 
 E.G. Hand Close - Gestures_111111 and Hand Open = Gestures_100000 
 
-##API
+## API
 
-###Accessing namespace: 
+### Accessing namespace: 
 
 
 After importing library files, all functions can be accessed through:
-VE_Comm::VE_Comms::<function name>
-Or when using namespace "VE_Comm":
-VE_Comms::<function name>  
 
+```
+VE_Comm::VE_Comms::<function name>
+```
+ 
+Or when using namespace "VE_Comm":
+```
+VE_Comms::<function name>  
+```
 The class VE_Comms can also be inisitialized as a variable for 
 
 VE_Comms_Var.<function name>
