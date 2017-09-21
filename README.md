@@ -1,9 +1,9 @@
 # Virtual-Enviroment
  Readme
 
-##Instructions: 
+## Instructions: 
 
-###Installation:
+### Installation:
 
 
 All C++ was made in Visual studio 2015, yet can be compiled with most other versions of visual Studio. 
@@ -20,7 +20,7 @@ Included is the console application (SendUDPTest) which can be used for easy tes
 
 
 
-###Usage:
+### Usage:
 
 Open the Unity project (preferebly in windowed mode) , commands may not always be recognised until the unity window regains focus
 
@@ -33,12 +33,12 @@ Library returns a "1" on succesful messege sending, or a list of current joint p
 All positons are presently held until a new message is sent. 
 
 
-###Commands:
+### Commands:
 
 All gesture commands are preceeded by "Gesture_" Followed by the gesture number / code
 
 
-Direct Gestures:
+**Direct Gestures:**
 Gestures 1 - Hand at Rest 
 Gestures 3 - Closed hand 
 Gestures 4 - Flexion 
@@ -48,7 +48,7 @@ Gestures 7 - Supination
 Gestures 8 - Fine Pinch
 
 
-Unique Gestures: 
+**Unique Gestures:** 
 
 All fingers on the hand may be controlled by sending the following format: 
 
@@ -59,31 +59,40 @@ Where each X corresponds a finger on the hand starting with the thumb, and movin
 Substituting the X for a 1 will bend the finger, and a 0 will return the finger to its resting position. 
 E.G. Hand Close - Gestures_111111 and Hand Open = Gestures_100000 
 
-##API
+## API
 
-###Accessing namespace: 
+### Accessing namespace: 
 
 
 After importing library files, all functions can be accessed through:
+
+```
 VE_Comm::VE_Comms::<function name>
+```
+ 
 Or when using namespace "VE_Comm":
+```
 VE_Comms::<function name>  
-
+```
 The class VE_Comms can also be inisitialized as a variable for 
-
+```
 VE_Comms_Var.<function name>
+```
 
 
+### Structs:
 
-###Structs:
-
-**VE_Comms::Joint **
+```
+VE_Comms::Joint 
+```
 
 Values: 
 int FingerNumber; (Denotes fingers from thumb to small finger (0-4) and wrist (5))
 int JointNumber;  Denotes individual joints on the finger (0-2), starting from the metacarpal 
 
-**VE_Comms::JointRotation**
+```
+VE_Comms::JointRotation
+```
 
 Joint _Joint; Takes a single joint
 float angle1; The main angle of rotation, in degrees. 
@@ -91,19 +100,25 @@ float angle2; Alternative angle of rotation (mainly used in thumb or wrist movem
 
 
 
-###Functions:
+### Functions:
 
 
-**VE_Comms::InitializeServer();**
+```
+VE_Comms::InitializeServer();
+```
 
 Place this function call early on to activate the UDP server, only needs to be run once. 
 
 
-**char*  VE_Comms::SendJoint(JointRotation JointCommand, bool getJointPositions = false);**
+```
+char*  VE_Comms::SendJoint(JointRotation JointCommand, bool getJointPositions = false);
+```
 
 Sends a single JointRotation to the Virtual Enviroment. Returns char "1", or joint positions of requested angle is "getJointPositions" set to true. 
 
-**static char*  VE_Comms::SendJoint(JointRotation JointCommand,int speed, bool getJointPositions = false);**
+```
+static char*  VE_Comms::SendJoint(JointRotation JointCommand,int speed, bool getJointPositions = false);
+```
 
 Sends a single jointRotation to the Virtual enviroment with added functionality to control the speed of the joints rotation. 
 
@@ -111,14 +126,18 @@ Returns either "1" or current joint position if requested.
 
 
 
-**static char*  VE_Comms::SendJoints(JointRotation JointCommand[],int size, bool getJointPositions = false);**
+```
+static char*  VE_Comms::SendJoints(JointRotation JointCommand[],int size, bool getJointPositions = false);
+```
 
 Takes an array of JointRotations, the size of the Array, and a bool for returning joint values. 
 
 Other than taking an Array, this functions exactly like VE_Comms::SendJoint 
 
 
-**static char*  VE_Comms::SendJoints(JointRotation JointCommand[], int size, int speed, bool getJointPositions = false);**
+```
+static char*  VE_Comms::SendJoints(JointRotation JointCommand[], int size, int speed, bool getJointPositions = false);
+```
 
 Takes an Array of JointRotation, the size of the array, and speed of motion, provides option to also return joint positions. 
 
@@ -126,28 +145,34 @@ Other than the array input, functions identically to VE_Comms::SentJoint with sp
 
 
 
-**static char* VE_Comms::SendGesture(int Gesture, bool getJointPositions = false);**
+```
+static char* VE_Comms::SendGesture(int Gesture, bool getJointPositions = false);
+```
 
 Takes a single int of gesture input, can return joint angles. 
 
 Presently working gestures are listed in the Commands section. 
 
 
-**static char* VE_Comms::SendUDP(const char* input,bool getJointPositions = false);**
-
+```
+static char* VE_Comms::SendUDP(const char* input,bool getJointPositions = false);
+```
 
 Sends a UDP Command to the server , largely used by other functions but can be used directly although it is advised to use the provided functions. 
 
-
-**VE_Comms::startTraining();**
+```
+VE_Comms::startTraining();
+```
 
 Send a command to the Virtual Enviroment to start a training session. Will only start if the Virtual enviroment is in the training mode. 
 
 
-**VE_Comms::getAllJointAngles();**
-
+```
+VE_Comms::getAllJointAngles();
+```
 Retrieves all joint angles from the Virtual enviroment and returns them as a char*
-
-**VE_Comms::getJointAngles(Joint joints[], int size)**
+```
+VE_Comms::getJointAngles(Joint joints[], int size)
+```
 
 Takes a list of Joint Rotations and Retrieves a char* that contains requested joint angles
